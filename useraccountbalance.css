@@ -1,0 +1,98 @@
+Body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+
+}
+.container{
+    padding: 25px; 
+    margin-top:50px;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(163, 198, 202);
+    border-radius: 40px;     
+      
+}
+button { 
+    background-color: #166fe5; 
+    width: 100%;
+    color: white;
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;    
+
+} 
+button:hover { 
+    opacity: 0.7; 
+  
+  } 
+input[type=text], input[type=password] { 
+    width: 100%; 
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid black; 
+    box-sizing: border-box; 
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 8px;
+    text-align: center;     
+}
+   
+li{
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+
+}    
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333d4b;
+    text-align: center;
+    margin-top: 60px;
+
+}
+h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333d4b;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 0.25in;  
+        
+}
+a{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.logout-btn{
+    margin: 0;
+    position: absolute;
+    top: 06%;
+    left: 80%;
+}
+#logout-btn{
+    background-color: #66696d; 
+    width: 100%;
+    color: white;
+    padding: 10px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 15px;
+
+}
+.back{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+}
